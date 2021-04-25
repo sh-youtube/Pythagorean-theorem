@@ -5,7 +5,7 @@ D = "Which side are you looking for? "
 # c**2 = b**2 + a**2
 
 
-while type(D) == str:
+while True:
 
 	print(f"\n{D}")
 	x = input("[a, b, c, exit]: ")
